@@ -6,8 +6,8 @@ function App() {
   
   function changeValue(){
     const value=document.getElementById("input").value;
-    localStorage.setItem("input", value);
     setValue(value);
+    localStorage.setItem("input", value);
   }
   
   return (

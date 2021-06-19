@@ -12,7 +12,7 @@ function App() {
   
   return (
     <div className="App">
-    <input id="input" placeholder="Enter your Input" onChange={changeValue}/>
+    <input id="input" placeholder="Enter your Input" onChange={changeValue} value={localStorage.getItem("input")}/>
     <h1>{value}</h1>      
     </div>
   );
